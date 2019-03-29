@@ -1,0 +1,34 @@
+add_libgraph_src(
+    ActivationLayerNode.cpp
+    BatchNormalizationLayerNode.cpp
+    BoundingBoxTransformLayerNode.cpp
+    ChannelShuffleLayerNode.cpp
+    ConcatenateLayerNode.cpp
+    ConstNode.cpp
+    ConvolutionLayerNode.cpp
+    DeconvolutionLayerNode.cpp
+    DepthwiseConvolutionLayerNode.cpp
+    DetectionOutputLayerNode.cpp
+    DummyNode.cpp
+    EltwiseLayerNode.cpp
+    FlattenLayerNode.cpp
+    FullyConnectedLayer.cpp
+    GenerateProposalsLayerNode.cpp
+    InputNode.cpp
+    NormalizationLayerNode.cpp
+    NormalizePlanarYUVLayerNode.cpp
+    OutputNode.cpp
+    PadLayerNode.cpp
+    PermuteLayerNode.cpp
+    PoolingLayerNode.cpp
+    PriorBoxLayerNode.cpp
+    ROIAlignLayerNode.cpp
+    ReorgLayerNode.cpp
+    ReshapeLayer.cpp
+    ResizeLayerNode.cpp
+    SliceLayerNode.cpp
+    SoftmaxLayerNode.cpp
+    SplitLayerNode.cpp
+    UpsampleLayerNode.cpp
+    YOLOLayerNode.cpp
+)
